@@ -2,7 +2,7 @@
 ## functions do
 
 ## This function creates a matrix from which the inverse is saved
-## the cache in order that it has not to be calculated twice. 
+## the cache in order that it doesn't have to be calculated twice. 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- matrix()
   set <- function(y) {
